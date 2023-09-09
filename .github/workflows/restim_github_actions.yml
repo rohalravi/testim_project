@@ -10,4 +10,4 @@ jobs:
               with:
                 node-version: '16.13.0'
             - run: npm install -g @testim/testim-cli
-            - run: testim --label "smoketest" --token "CZKHpmJqTnhUZzP8XiJ7KCB6IoKRep4uhnGQn8YSClEeb0fTYM" --project "u0FvnvLGe4UOkGqDlmAt" --grid "Testim-Grid"
+            - run: testim --label "smoke" --token "CZKHpmJqTnhUZzP8XiJ7KCB6IoKRep4uhnGQn8YSClEeb0fTYM" --project "u0FvnvLGe4UOkGqDlmAt" --grid "Testim-Grid"
